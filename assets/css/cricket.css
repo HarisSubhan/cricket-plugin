@@ -1,0 +1,64 @@
+.cricket-player-search {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#cps-search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+#cps-player-name {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#cps-search-form button {
+    padding: 8px 12px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#cps-search-form button:hover {
+    background: #005a87;
+}
+
+.cps-loading {
+    font-style: italic;
+    color: #666;
+}
+
+.cps-player-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cps-player-list li {
+    margin-bottom: 10px;
+}
+
+.cps-player-link {
+    text-decoration: none;
+    color: #0073aa;
+    font-weight: 500;
+}
+
+.cps-player-link:hover {
+    text-decoration: underline;
+}
+
+.cps-player-card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+}
