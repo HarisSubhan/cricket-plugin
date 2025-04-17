@@ -1,6 +1,6 @@
 <?php
 class Cricket_API_Handler {
-    protected $api_key = '23853bc0-52f1-498c-985e-2faa764e23c4';
+    protected $api_key = ''; "replace with your api"
 
     protected function make_request($url) {
         $response = wp_remote_get($url, ['timeout' => 15, 'sslverify' => false]);
